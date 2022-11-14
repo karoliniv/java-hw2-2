@@ -10,11 +10,9 @@ public class Main {
         if (addMoney > 1000) {
             bonus = addMoney / giftRubles;
             mobileAccount += bonus;
-            System.out.println("Бонусов — " + bonus + ", итоговая сумма на счету клиента — "
-                    + mobileAccount + " рублей.");
-        } else {
-            System.out.println("Бонусов — " + bonus + ", итоговая сумма на счету клиента — "
-                    + mobileAccount + " рублей.");
         }
+
+        System.out.println("Бонусов — " + bonus + ", итоговая сумма на счету клиента — "
+                + mobileAccount + " рублей.");
     }
 }
