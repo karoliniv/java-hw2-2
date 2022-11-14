@@ -7,17 +7,14 @@ public class Main {
 
         mobileAccount = mobileAccount + addMoney;
 
-        if(addMoney > 1000) {
+        if (addMoney > 1000) {
             bonus = addMoney / giftRubles;
             mobileAccount = mobileAccount + bonus;
             System.out.println("Бонусов — " + bonus + ", итоговая сумма на счету клиента — "
-                                            + mobileAccount + " рублей.");
-        }
-        else {
+                    + mobileAccount + " рублей.");
+        } else {
             System.out.println("Бонусов — " + bonus + ", итоговая сумма на счету клиента — "
-                                            + mobileAccount + " рублей.");
+                    + mobileAccount + " рублей.");
         }
-
-
     }
 }
